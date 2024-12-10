@@ -1,14 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sunil's Resume</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+            color: #333;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            background: #007bff;
+            color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            margin-bottom: 20px;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: #007bff;
+            border-bottom: 2px solid #007bff;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .profile-container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .profile-img-container {
+            flex: 1;
+            max-width: 150px;
+        }
+
+        .profile-img {
+            width: 100%;
+            border-radius: 50%;
+            border: 2px solid #007bff;
+        }
+
+        .about-text {
+            flex: 3;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #007bff;
+            color: white;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
+
 <body>
     <header>
-        <h1>Sunil's Resume</h1>
+        <h1>Resume</h1>
         <nav>
             <a href="#about">About Me</a>
             <a href="#skills">Skills</a>
@@ -23,17 +134,15 @@
 
     <section id="about">
         <h2>About Me</h2>
-        <!-- Profile Container with Flexbox -->
         <div class="profile-container">
-            <!-- Profile Image -->
             <div class="profile-img-container">
                 <img src="sumi.jpg" alt="Profile" class="profile-img">
             </div>
-            
-            <!-- About Me Text -->
             <div class="about-text">
-                <p> 
-                    I am Sunil, CSE student from Canara Engineering College expecting a package of 10 LPA, driven by passion and dedication to excel in the tech industry.</p>
+                <p>
+                    I am Sunil, CSE student from Canara Engineering College expecting a package of 10 LPA, driven by
+                    passion and dedication to excel in the tech industry.
+                </p>
             </div>
         </div>
     </section>
@@ -63,7 +172,7 @@
             </li>
             <li>
                 <strong>10th Grade</strong><br>
-                G.H.P.S Ajjarkad udupi<br>
+                G.H.P.S Ajjarkad Udupi<br>
                 Percentage: 87.68%
             </li>
         </ul>
@@ -78,19 +187,13 @@
         </ul>
     </section>
 
-    <section id="experience">
-        <h2>Experience</h2>
-        <p>Participated in open-source projects on platforms like GitHub, contributing code, documentation, or bug fixes.</p>
-        <p> Attended industry-level workshops on  AI/ML.</p>
-        <p>Successfully managed a team during academic or personal projects</p>
-    </section>
+    
 
     <section id="achievements">
         <h2>Achievements</h2>
         <ul>
             <li>Consistently maintained a high GPA or CGPA.</li>
             <li>Completed certifications like NPTEL, Google Cloud, or Coursera.</li>
-
         </ul>
     </section>
 
@@ -99,16 +202,14 @@
         <p>Reading books, coding, playing volleyball, drawing, and exploring new technologies.</p>
     </section>
 
-    <!-- Social Links Section -->
     <section id="social">
         <h2>Find Me Online</h2>
         <ul>
-            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sunil-lamani-18a282317?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn Profile</a></li>
+            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sunil-lamani-18a282317" target="_blank">LinkedIn Profile</a></li>
             <li><strong>GitHub:</strong> <a href="https://github.com/dashboard" target="_blank">GitHub Profile</a></li>
         </ul>
     </section>
 
-    <!-- Contact Information Section -->
     <section id="contact">
         <h2>Contact Information</h2>
         <ul>
@@ -119,10 +220,8 @@
     </section>
 
     <footer>
-        <p>&copy; 2024 Vasudeva. All rights reserved.</p>
+        <p>&copy; 2024 Sunil. All rights reserved.</p>
     </footer>
-
-    <!-- JavaScript File -->
-    <script src="script.js"></script>
 </body>
+
 </html>
